@@ -1,0 +1,6 @@
+interface:
+  display_name: "小六壬速断"
+  short_description: "选字加时辰，给出克制直接的娱乐性六宫速断"
+  default_prompt: "使用 $xiaoliu-ren-quick-read，根据我给出的一个汉字和如实填写的实际起课时间起一课。对低风险日常问题直接给出课面偏有或偏无的象征性倾向，再给一个现实动作；不要作确定性或高风险断言。"
+policy:
+  allow_implicit_invocation: false
