@@ -13,6 +13,10 @@
 - RedSkill 与 GitHub Release 共用文件：`xiaoliu-ren-quick-read-v1.0.1-redskill.zip`
 - ZIP SHA-256：`550D495100420E98F144370A4BE56FD7854D4FC3055E575B3D6C09ABBB118E50`
 
+## 兼容性
+
+采用通用 Agent Skills（`SKILL.md`）结构，可在 GPT/Codex、Claude Code（CC）、WorkBuddy、CodeBuddy 等主流 Agent 工具中安装使用。
+
 ## 特点
 
 - **输入简单**：一个汉字，加上如实填写的实际起课时间。
@@ -25,7 +29,7 @@
 ## 使用示例
 
 ```text
-使用 $xiaoliu-ren-quick-read。
+请调用 xiaoliu-ren-quick-read（小六壬速断）Skill。
 这篇论文能不能顺利接收？
 选字：春
 实际起课时间：上午九点
@@ -39,15 +43,15 @@
 
 ## 安装
 
-发布后，从本仓库的 `v1.0.1` Release 下载版本化 ZIP，并将其中的 Skill 文件解压到个人 Skill 目录中的 `xiaoliu-ren-quick-read` 文件夹。
+从本仓库的 `v1.0.1` Release 下载版本化 ZIP，按照所用 Agent 工具的 Skill 导入方式安装；支持从 GitHub 安装的工具也可直接使用本仓库地址。
 
-Codex 的 Windows 用户目录通常为：
+如需手动安装，请将 ZIP 中的 Skill 文件解压到个人 Skill 目录中的 `xiaoliu-ren-quick-read` 文件夹。Codex 的 Windows 用户目录通常为：
 
 ```text
 %USERPROFILE%\.codex\skills\xiaoliu-ren-quick-read
 ```
 
-安装后建议明确写出 `$xiaoliu-ren-quick-read` 调用。
+安装后，在对话中明确点名“小六壬速断”或 `xiaoliu-ren-quick-read` 即可；在 Codex 中可直接写出 `$xiaoliu-ren-quick-read`。
 
 ## 文件结构
 
